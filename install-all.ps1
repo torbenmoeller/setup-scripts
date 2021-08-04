@@ -1,3 +1,3 @@
-& .\install-common-tools.ps1
-& .\install-programming-tools.ps1
-& .\install-cloud-tools.ps1
+Get-ChildItem './scripts' | ForEach-Object {
+  & $_.FullName
+}
