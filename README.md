@@ -1,5 +1,6 @@
 # How to use this project
-Execute this script to automatically install software with winget
+Execute this script to automatically install software with winget.
+
 You can find more information on my [blog post](https://pluvial.dev/post/setup-dev-environment/)
 
 ```powershell
